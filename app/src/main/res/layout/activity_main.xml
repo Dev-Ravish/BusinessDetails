@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tv_heading"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="36sp"
+        android:text="ANG MAYUR"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/iv_angmayur"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/foods"
+
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/tv_heading"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/contacts_iv"
+        android:layout_below="@id/iv_angmayur"
+        android:layout_width="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="40dp"
+        android:src="@drawable/contacts"/>
+
+    <TextView
+        android:layout_below="@id/iv_angmayur"
+        android:layout_toRightOf="@id/contacts_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:text="9473174196 ,7739894631"
+        />
+    <ImageView
+        android:id="@+id/gmail_iv"
+        android:layout_below="@id/contacts_iv"
+        android:layout_width="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="40dp"
+        android:src="@drawable/gmail"/>
+    <TextView
+        android:layout_below="@id/contacts_iv"
+        android:layout_toRightOf="@id/gmail_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:text=" angmayur01@gmail.com"
+        />
+
+    <ImageView
+        android:id="@+id/address_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/gmail_iv"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/address" />
+
+    <TextView
+        android:layout_below="@id/gmail_iv"
+        android:layout_toRightOf="@id/address_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:text=" Angmayur ,burhanath adampur,bhagalpur -812001 "
+       />
+
+
+</RelativeLayout>
